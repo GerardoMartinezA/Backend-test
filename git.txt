@@ -1,0 +1,15 @@
+Write sentences:
+
+1.Create Branch (“test”).
+
+git checkout -b 'test'
+
+2. Add new File to branch
+
+git push --set-upstream origin test
+
+3.Commit branch to Master
+
+git checkout master
+
+git merge test
